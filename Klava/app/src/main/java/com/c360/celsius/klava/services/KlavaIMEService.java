@@ -22,6 +22,15 @@ public class KlavaIMEService extends InputMethodService implements KeyboardView.
     private boolean caps = false;
 
     @Override
+    public View onCreateInputView() {
+        kv = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null);
+        keyboard = new Keyboard(this, R.xml.qwerty);
+        kv.setKeyboard(keyboard);
+        kv.setOnKeyboardActionListener(this);
+        return kv;
+    }
+
+    @Override
     public void onPress(int i) {
 
     }
@@ -81,14 +90,7 @@ public class KlavaIMEService extends InputMethodService implements KeyboardView.
 
     }
 
-    @Override
-    public View onCreateInputView() {
-        kv = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null);
-        keyboard = new Keyboard(this, R.xml.qwerty);
-        kv.setKeyboard(keyboard);
-        kv.setOnKeyboardActionListener(this);
-        return kv;
-    }
+
 
     private void playClick(int keyCode){
         AudioManager am = (AudioManager)getSystemService(AUDIO_SERVICE);
