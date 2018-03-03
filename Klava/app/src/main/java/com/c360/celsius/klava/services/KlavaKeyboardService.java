@@ -1,5 +1,6 @@
 package com.c360.celsius.klava.services;
 
+import android.graphics.Color;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -14,7 +15,7 @@ import com.c360.celsius.klava.R;
  * Created by dennisshar on 02/03/2018.
  */
 
-public class KlavaIMEService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
+public class KlavaKeyboardService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
 
     private KeyboardView kv;
     private Keyboard keyboard;
