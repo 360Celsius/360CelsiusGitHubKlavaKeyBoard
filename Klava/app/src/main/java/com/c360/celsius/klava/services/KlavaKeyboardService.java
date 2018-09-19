@@ -25,6 +25,7 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
     @Override
     public View onCreateInputView() {
         kv = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null);
+        kv.setPreviewEnabled(false);
 
         keyboard = new Keyboard(this, R.xml.qwerty);
         keyboardNumbers = new Keyboard(this, R.xml.qwerty_nubers_and_signs);
@@ -67,8 +68,8 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
                 }
                 ic.commitText(String.valueOf(code),1);
 
-                kv.setKeyboard(keyboardNumbers);
-                kv.setOnKeyboardActionListener(this);
+//                kv.setKeyboard(keyboardNumbers);
+//                kv.setOnKeyboardActionListener(this);
 
         }
     }
