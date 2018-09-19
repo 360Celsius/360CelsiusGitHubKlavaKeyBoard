@@ -1,6 +1,5 @@
 package com.c360.celsius.klava.services;
 
-import android.graphics.Color;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -19,13 +18,17 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
 
     private KeyboardView kv;
     private Keyboard keyboard;
+    private Keyboard keyboardNumbers;
 
     private boolean caps = false;
 
     @Override
     public View onCreateInputView() {
         kv = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null);
+
         keyboard = new Keyboard(this, R.xml.qwerty);
+        keyboardNumbers = new Keyboard(this, R.xml.qwerty_nubers_and_signs);
+
         kv.setKeyboard(keyboard);
         kv.setOnKeyboardActionListener(this);
         return kv;
@@ -63,6 +66,10 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
                     code = Character.toUpperCase(code);
                 }
                 ic.commitText(String.valueOf(code),1);
+
+                kv.setKeyboard(keyboardNumbers);
+                kv.setOnKeyboardActionListener(this);
+
         }
     }
 
