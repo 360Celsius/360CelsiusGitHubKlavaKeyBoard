@@ -5,6 +5,5 @@
     <color name="colorAccent">#FF4081</color>
 
 
-    <drawable name="unpressed_color">#ff0000</drawable>
-    <drawable name="pressed_color">#ffffff</drawable>
+    <color name="key_text_color">#FFFFFF</color>
 </resources>
