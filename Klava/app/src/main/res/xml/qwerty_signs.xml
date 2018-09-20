@@ -12,7 +12,7 @@
         <Key android:codes="249" android:keyLabel="&#183;" android:keyWidth="10%p"  />
         <Key android:codes="251" android:keyLabel="&#8730;" android:keyWidth="10%p"  />
         <Key android:codes="227" android:keyLabel="&#928;" android:keyWidth="10%p"  />
-        <Key android:codes="246" android:keyLabel="&#247;" android:keyWidth="10%p"  />
+        <Key android:codes="247" android:keyLabel="&#247;" android:keyWidth="10%p"  />
         <Key android:codes="215" android:keyLabel="&#215;" android:keyWidth="10%p"  />
         <Key android:codes="182" android:keyLabel="&#182;" android:keyWidth="10%p"  />
         <Key android:codes="167" android:keyLabel="&#167;" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
