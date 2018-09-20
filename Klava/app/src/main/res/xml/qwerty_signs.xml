@@ -6,15 +6,15 @@
     android:keyHeight="60dp"
     >
     <Row>
-        <Key android:codes="1001" android:keyLabel="&#126;" android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="1001" android:keyLabel="&#180;" android:keyWidth="10%p"  />
-        <Key android:codes="1001" android:keyLabel="&#124;" android:keyWidth="10%p"  />
-        <Key android:codes="1001" android:keyLabel="&#183;" android:keyWidth="10%p"  />
-        <Key android:codes="1001" android:keyLabel="&#8730;" android:keyWidth="10%p"  />
+        <Key android:codes="126" android:keyLabel="&#126;" android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="96" android:keyLabel="&#180;" android:keyWidth="10%p"  />
+        <Key android:codes="124" android:keyLabel="&#124;" android:keyWidth="10%p"  />
+        <Key android:codes="249" android:keyLabel="&#183;" android:keyWidth="10%p"  />
+        <Key android:codes="251" android:keyLabel="&#8730;" android:keyWidth="10%p"  />
         <Key android:codes="1001" android:keyLabel="&#928;" android:keyWidth="10%p"  />
         <Key android:codes="1001" android:keyLabel="&#247;" android:keyWidth="10%p"  />
         <Key android:codes="1001" android:keyLabel="&#10005;" android:keyWidth="10%p"  />
-        <Key android:codes="1001" android:keyLabel="&#182;" android:keyWidth="10%p"  />
+        <Key android:codes="184" android:keyLabel="&#182;" android:keyWidth="10%p"  />
         <Key android:codes="-4" android:keyLabel="&#8711;" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
     </Row>
 
