@@ -18,7 +18,9 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
 
     private KeyboardView kv;
     private Keyboard keyboard;
-    private Keyboard keyboardNumbers;
+    private Keyboard keyboardNumbersAndSigns;
+    private Keyboard keyboardSigns;
+
 
     private boolean caps = false;
 
@@ -28,7 +30,9 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
         kv.setPreviewEnabled(false);
 
         keyboard = new Keyboard(this, R.xml.qwerty);
-        keyboardNumbers = new Keyboard(this, R.xml.qwerty_nubers_and_signs);
+        keyboardNumbersAndSigns = new Keyboard(this, R.xml.qwerty_nubers_and_signs);
+        keyboardSigns = new Keyboard(this, R.xml.qwerty_signs);
+
 
         kv.setKeyboard(keyboard);
         kv.setOnKeyboardActionListener(this);
@@ -63,11 +67,15 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
                 break;
 
             case 1001:
-                kv.setKeyboard(keyboardNumbers);
+                kv.setKeyboard(keyboardNumbersAndSigns);
                 kv.setOnKeyboardActionListener(this);
                 break;
             case 1004:
                 kv.setKeyboard(keyboard);
+                kv.setOnKeyboardActionListener(this);
+                break;
+            case 1005:
+                kv.setKeyboard(keyboardSigns);
                 kv.setOnKeyboardActionListener(this);
                 break;
             default:

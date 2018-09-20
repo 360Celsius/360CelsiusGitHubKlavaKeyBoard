@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+    <Row>
+        <Key android:codes="1001" android:keyLabel="&#126;" android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="1001" android:keyLabel="&#180;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#124;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#183;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#8730;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#928;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#247;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#10005;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#182;" android:keyWidth="10%p"  />
+        <Key android:codes="-4" android:keyLabel="&#8711;" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="1001" android:keyLabel="&#8364;" android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="1001" android:keyLabel="&#165;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#36;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#162;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#94;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#176;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#61;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#123;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#125;" android:keyWidth="10%p"  />
+        <Key android:codes="-5" android:keyIcon="@drawable/ic_backspace_black_24dp" android:keyWidth="10%p" android:isRepeatable="true"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="1001" android:keyLabel="1/@" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="1001" android:keyLabel="&#37;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#169;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#174;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#8482;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#8453;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#91;" android:keyWidth="10%p"  />
+        <Key android:codes="1001" android:keyLabel="&#93;" android:keyWidth="10%p"  />
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_subdirectory_arrow_left_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
+
+    </Row>
+
+    <Row>
+        <Key android:codes="1004" android:keyLabel="ABC" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1001" android:keyLabel="&#60;" android:keyWidth="10%p"  />
+        <Key android:codes="32" android:keyIcon="@drawable/ic_space_bar_black_24dp" android:keyWidth="60%p" android:isRepeatable="true"/>
+        <Key android:codes="1001" android:keyLabel="&#62;" android:keyWidth="10%p"  />
+        <Key android:codes="1002" android:keyIcon="@drawable/ic_settings_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

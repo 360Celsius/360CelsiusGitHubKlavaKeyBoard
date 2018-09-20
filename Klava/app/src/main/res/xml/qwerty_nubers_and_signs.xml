@@ -33,7 +33,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="1003" android:keyLabel="~{" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1005" android:keyLabel="~{" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
         <Key android:codes="92" android:keyLabel="\\"/>
         <Key android:codes="61" android:keyLabel="="/>
         <Key android:codes="42" android:keyLabel="*"/>
