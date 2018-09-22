@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+    <Row>
+        <Key android:codes="949" android:keyLabel="ε" android:keyWidth="13%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="961" android:keyLabel="ρ" android:keyWidth="13%p"/>
+        <Key android:codes="964" android:keyLabel="τ" android:keyWidth="13%p"/>
+        <Key android:codes="965" android:keyLabel="υ" android:keyWidth="13%p"/>
+        <Key android:codes="952" android:keyLabel="θ" android:keyWidth="13%p"/>
+        <Key android:codes="953" android:keyLabel="ι" android:keyWidth="13%p"/>
+        <Key android:codes="959" android:keyLabel="ο" android:keyWidth="13%p"/>
+        <Key android:codes="960" android:keyLabel="π" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="945" android:keyLabel="α" android:keyEdgeFlags="left"/>
+        <Key android:codes="963" android:keyLabel="σ"/>
+        <Key android:codes="948" android:keyLabel="δ"/>
+        <Key android:codes="966" android:keyLabel="φ"/>
+        <Key android:codes="947" android:keyLabel="γ"/>
+        <Key android:codes="951" android:keyLabel="η"/>
+        <Key android:codes="958" android:keyLabel="ξ"/>
+        <Key android:codes="954" android:keyLabel="κ"/>
+        <Key android:codes="955" android:keyLabel="λ"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/ic_backspace_black_24dp" android:keyWidth="15%p" android:isRepeatable="true"/>
+
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/ic_keyboard_capslock_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
+        <Key android:codes="950" android:keyLabel="ζ"/>
+        <Key android:codes="967" android:keyLabel="χ"/>
+        <Key android:codes="968" android:keyLabel="ψ"/>
+        <Key android:codes="969" android:keyLabel="ω"/>
+        <Key android:codes="946" android:keyLabel="β"/>
+        <Key android:codes="957" android:keyLabel="ν"/>
+        <Key android:codes="956" android:keyLabel="μ"/>
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_subdirectory_arrow_left_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
+
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="1001" android:keyLabel="1/@" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="1003" android:keyIcon="@drawable/ic_sentiment_satisfied_black_24dp" android:keyWidth="10%p" android:isRepeatable="true"/>
+        <Key android:codes="32" android:keyIcon="@drawable/ic_space_bar_black_24dp" android:keyWidth="60%p" android:isRepeatable="true"/>
+        <Key android:codes="1002" android:keyIcon="@drawable/ic_settings_black_24dp" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
