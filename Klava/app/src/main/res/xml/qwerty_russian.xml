@@ -20,7 +20,7 @@
         <Key android:codes="1098" android:keyLabel="ъ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="1092" android:keyLabel="ф" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1092" android:keyLabel="ф"  android:keyEdgeFlags="left"/>
         <Key android:codes="1099" android:keyLabel="ы"/>
         <Key android:codes="1074" android:keyLabel="в"/>
         <Key android:codes="1072" android:keyLabel="а"/>
@@ -31,12 +31,11 @@
         <Key android:codes="1076" android:keyLabel="д"/>
         <Key android:codes="1078" android:keyLabel="ж"/>
         <Key android:codes="1079" android:keyLabel="з"/>
-        <Key android:codes="-5" android:keyIcon="@drawable/ic_backspace_black_24dp" android:keyWidth="15%p" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/ic_backspace_black_24dp"  android:isRepeatable="true"/>
 
     </Row>
     <Row>
         <Key android:codes="-1" android:keyIcon="@drawable/ic_keyboard_capslock_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
         <Key android:codes="1103" android:keyLabel="я"/>
         <Key android:codes="1095" android:keyLabel="ч"/>
         <Key android:codes="1089" android:keyLabel="с"/>
@@ -46,14 +45,15 @@
         <Key android:codes="1098" android:keyLabel="ь"/>
         <Key android:codes="1073" android:keyLabel="б"/>
         <Key android:codes="1102" android:keyLabel="ю"/>
-        <Key android:codes="46" android:keyLabel="."/>
         <Key android:codes="-4" android:keyIcon="@drawable/ic_subdirectory_arrow_left_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
 
     </Row>
-    <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="1001" android:keyLabel="1/@" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="1003" android:keyIcon="@drawable/ic_sentiment_satisfied_black_24dp" android:keyWidth="10%p" android:isRepeatable="true"/>
-        <Key android:codes="32" android:keyIcon="@drawable/ic_space_bar_black_24dp" android:keyWidth="60%p" android:isRepeatable="true"/>
-        <Key android:codes="1002" android:keyIcon="@drawable/ic_settings_black_24dp" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    <Row>
+        <Key android:codes="1004" android:keyLabel="ABC" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p"/>
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"/>
+        <Key android:codes="32" android:keyIcon="@drawable/ic_space_bar_black_24dp" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="92" android:keyLabel="\?" android:keyWidth="10%p"/>
+        <Key android:codes="46" android:keyLabel="." android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

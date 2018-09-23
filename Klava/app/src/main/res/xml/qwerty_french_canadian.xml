@@ -33,7 +33,6 @@
     </Row>
     <Row>
         <Key android:codes="-1" android:keyIcon="@drawable/ic_keyboard_capslock_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
         <Key android:codes="249" android:keyLabel="ù"/>
         <Key android:codes="122" android:keyLabel="z"/>
         <Key android:codes="120" android:keyLabel="x"/>
@@ -42,7 +41,6 @@
         <Key android:codes="98" android:keyLabel="b"/>
         <Key android:codes="110" android:keyLabel="n"/>
         <Key android:codes="109" android:keyLabel="m"/>
-        <Key android:codes="46" android:keyLabel="."/>
         <Key android:codes="-4" android:keyIcon="@drawable/ic_subdirectory_arrow_left_black_24dp" android:keyWidth="10%p" android:keyEdgeFlags="right"/>
 
 
@@ -51,7 +49,9 @@
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="1001" android:keyLabel="1/@" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="1003" android:keyIcon="@drawable/ic_sentiment_satisfied_black_24dp" android:keyWidth="10%p" android:isRepeatable="true"/>
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
         <Key android:codes="32" android:keyIcon="@drawable/ic_space_bar_black_24dp" android:keyWidth="60%p" android:isRepeatable="true"/>
+        <Key android:codes="46" android:keyLabel="."/>
         <Key android:codes="1002" android:keyIcon="@drawable/ic_settings_black_24dp" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>
