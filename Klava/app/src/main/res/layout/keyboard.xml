@@ -10,6 +10,6 @@
     android:keyBackground="@drawable/key_background"
     android:keyTextColor="@color/key_text_color"
     android:background="@color/colorPrimaryDark"
-
+    android:keyTextSize="14dp"
     />
 

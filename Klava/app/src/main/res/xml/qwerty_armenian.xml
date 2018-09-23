@@ -3,7 +3,7 @@
     android:keyWidth="10%p"
     android:horizontalGap="0px"
     android:verticalGap="0px"
-    android:keyHeight="60dp"
+    android:keyHeight="40dp"
     >
     <Row>
         <Key android:codes="1395" android:keyLabel="ճ" android:keyEdgeFlags="left"/>
