@@ -17,8 +17,8 @@ import com.c360.celsius.klava.R;
 public class KlavaKeyboardService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
 
     private KeyboardView kv;
+    
     private Keyboard keyboard;
-
     private Keyboard keyboardNumbersAndSigns;
     private Keyboard keyboardSigns;
 
@@ -30,9 +30,7 @@ public class KlavaKeyboardService extends InputMethodService implements Keyboard
         kv = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null);
         kv.setPreviewEnabled(false);
 
-        keyboard = new Keyboard(this, R.xml.qwerty_armenian);
-
-
+        keyboard = new Keyboard(this, R.xml.qwerty_english);
         keyboardNumbersAndSigns = new Keyboard(this, R.xml.qwerty_nubers_and_signs);
         keyboardSigns = new Keyboard(this, R.xml.qwerty_signs);
 
